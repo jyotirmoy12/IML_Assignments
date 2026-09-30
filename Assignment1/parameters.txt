@@ -1,0 +1,18 @@
+
+Background Substraction -Parameters
+
+METHOD 1: SEQUENTIAL LABELING
+
+Threshold: 2.2
+Min blob area: 50 pixels
+Connectivity: 8-connected
+Morphology: None
+
+METHOD 2: GAUSSIAN MIXTURE MODEL (GMM)
+
+Gaussians per pixel: 3
+Learning rate: 0.01
+Match threshold: 2.5 sigma
+Background ratio: 0.7
+Initial variance: 15
+
